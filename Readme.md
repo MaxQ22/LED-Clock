@@ -1,5 +1,7 @@
 # LED Clock
 
+![](Pictures/LEDClockAnimation.gif)
+
 The LED Clock uses WS2812 (NEOPixel) LEDs to emulate a seven segment clock. It is mainly intended to be used in the bedroom, to get to know the time whenever you wake up. Therefore, the clock has a "dark mode", switching the LEDs to a faint red tone, to have less impact on the sleep. The idea behind this project arose, as it is difficult by people wearing glasses, to read a common bedside clock display, when not wearing glasses at night. The LED concpet allows the display to be very big, providing better readability.
 
 The Clock uses an ESP8266 microprocessor, programmed using the Arduino IDE to obtain the current time from a time server and subsequently driving the LEDs to show the time. The ESP8266 also reads out a light sensor to obtain the current room illumination and control the brightness of the display.

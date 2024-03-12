@@ -4,7 +4,6 @@ The LED Clock uses WS2812 (NEOPixel) LEDs to emulate a seven segment clock. It i
 
 The Clock uses an ESP8266 microprocessor, programmed using the Arduino IDE to obtain the current time from a time server and subsequently driving the LEDs to show the time. The ESP8266 also reads out a light sensor to obtain the current room illumination and control the brightness of the display.
 
-#TODO
 ![LED Clock Picture](/Pictures/LEDClockDay.jpg)
 
 ## Build Instructions
@@ -46,8 +45,8 @@ Quantity | Component Name
 ### Light Sensor Assembly
 Take a small piece of perfboard and solder the phototransistor and the 10 kOhm resistor on it. The resistor is connected to the emitter of the phototransistor. Solder three cables to the collector of the Phototransistor, the emitter of the phototransistor and the pin of the resistor, that is not connected to the phototransistor.
 
-![DigitPicture](/Pictures/PhototransistorPCB#1.jpg)
-![DigitPicture](/Pictures/PhototransistorPCB#2.jpg)
+![DigitPicture](/Pictures/PhototransistorPCB1.jpg)
+![DigitPicture](/Pictures/PhototransistorPCB2.jpg)
 
 ### Clock Assembly
 3D print one piece of the file LED_Clock_Housing-Base Left.stl. Put a bit of hot glue into the two arresting holes for the outermost digit and then put the first digit in the outer position. Take care of the orientation of the digit, with respect to the cable feedthrough on the side. The digit looks to the front, when the cable feedtrough is on the left.
